@@ -218,11 +218,6 @@ export const cafeData: CafeData = {
           name: "روقان الفيلا",
           price: 120,
         },
-        {
-          name: "كوكتيل الفيلا",
-          price: 0, // Replace with the actual price
-          description: "أفوكادو + كيوي + آيس كريم",
-        },
       ],
     },
 
