@@ -8,7 +8,9 @@ export function Footer() {
         </span>
         <span className="h-px w-10 bg-cafe-gold/30" />
       </div>
-      <p className="text-cafe-soft text-xs">جميع الأسعار شاملة الضريبة · بالهناء والشفاء</p>
+      <p className="text-cafe-soft text-xs">
+        ضريبة خدمة ١٠ ٪ - بالهنا والشفا ♥️
+      </p>
     </footer>
   );
 }

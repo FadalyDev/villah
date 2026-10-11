@@ -61,6 +61,22 @@ export const cafeData: CafeData = {
   },
   categories: [
     {
+      id: "soft",
+      name_ar: "سوفت درينك",
+      items: [
+        { name: "مياه", price: 10 },
+        { name: "بيبسي", price: 30 },
+        { name: "سفن", price: 30 },
+        { name: "شويبس", price: 35 },
+        { name: "فيروز", price: 35 },
+        { name: "بريل", price: 35 },
+        { name: "ريد بول", price: 95 },
+        { name: "مونستر", price: 95 },
+        { name: "فيوري", price: 40 },
+        { name: "استينج", price: 35 },
+      ],
+    },
+    {
       id: "mazaj",
       name_ar: "مزاج",
       items: [
@@ -99,35 +115,117 @@ export const cafeData: CafeData = {
         { name: "نسكافيه حليب", price: 35 },
       ],
     },
+
     {
-      id: "roofan",
-      name_ar: "روفان",
+      id: "herbs",
+      name_ar: "أعشاب",
       items: [
-        { name: "ترافيل ميكس", price: 70 },
-        { name: "فلوريدا", price: 65 },
-        { name: "اركاديا", price: 80 },
-        { name: "هافانا", price: 80 },
-        { name: "بيناكولادا", price: 80 },
-        { name: "روقانك", price: 60 },
-        { name: "فوقانك", price: 65 },
+        { name: "ينسون", price: 20 },
+        { name: "قرفة", price: 25 },
+        { name: "نعناع", price: 20 },
+        { name: "زنجبيل", price: 35 },
+        { name: "ليمون", price: 20 },
+        { name: "زنجبيل حليب", price: 35 },
+        { name: "قرفة حليب", price: 35 },
+        { name: "قرفة زنجبيل", price: 30 },
+        { name: "هوت سيدر", price: 40 },
+        { name: "كوكتيل اعشاب", price: 35 },
+        { name: "صيدلية", price: 40 },
+      ],
+    },
+    {
+      id: "warm",
+      name_ar: "الدفء",
+      items: [
+        { name: "سحلب", price: 35 },
+        { name: "سحلب مكسرات", price: 45 },
+        { name: "سحلب عسل مكسرات", price: 50 },
+        { name: "هوت شوكولاتة", price: 30 },
+        { name: "هوت شوكولاتة مارشميلو", price: 40 },
+        { name: "حمص", price: 35 },
+      ],
+    },
+    {
+      id: "rooqan",
+      name_ar: "روقان",
+      items: [
+        {
+          name: "ترافيل ميكس",
+          price: 70,
+          description: "برتقال + أناناس + فراولة",
+        },
+        {
+          name: "فلوريدا",
+          price: 65,
+          description: "فراولة + مانجو + جوافة",
+        },
+        {
+          name: "اركاديا",
+          price: 80,
+          description: "مانجو + موز + آيس كريم + فليفر فراولة",
+        },
+        {
+          name: "هافانا",
+          price: 80,
+          description: "كيوي + أناناس",
+        },
+        {
+          name: "بيناكولادا",
+          price: 80,
+          description: "أناناس + جوز هند + آيس كريم",
+        },
+        {
+          name: "روقانك",
+          price: 60,
+          description: "جوافة + نعناع",
+        },
+        {
+          name: "فوقانك",
+          price: 65,
+          description: "فراولة + نعناع",
+        },
         {
           name: "نعنشتك",
           price: 65,
+          description: "بطيخ + نعناع",
+        },
+        {
+          name: "يوم فري",
+          price: 75,
           description: "جوافة + موز + آيس كريم + فانيليا + نعناع",
         },
-        { name: "بوم فري", price: 75 },
-        { name: "كركديه بيري", price: 55 },
-        { name: "زبادي فواكه", price: 75 },
-        { name: "مانجو كيوي", price: 80 },
-        { name: "كانجو مانجو", price: 80 },
-        { name: "تروبيكانا", price: 95 },
         {
-          name: "روفان الفيلا",
+          name: "كركديه بيري",
+          price: 55,
+        },
+        {
+          name: "زبادي فواكه",
+          price: 75,
+        },
+        {
+          name: "مانجو كيوي",
+          price: 80,
+        },
+        {
+          name: "كانجو مانجو",
+          price: 80,
+        },
+        {
+          name: "تروبيكانا",
+          price: 95,
+        },
+        {
+          name: "روقان الفيلا",
           price: 120,
-          description: "مانجو + خوخ + أناناس + مكسرات",
+        },
+        {
+          name: "كوكتيل الفيلا",
+          price: 0, // Replace with the actual price
+          description: "أفوكادو + كيوي + آيس كريم",
         },
       ],
     },
+
     {
       id: "fresh",
       name_ar: "خليك فريش",
@@ -222,51 +320,7 @@ export const cafeData: CafeData = {
         { name: "كراميل شيك", price: 75 },
       ],
     },
-    {
-      id: "soft",
-      name_ar: "سوفت درينك",
-      items: [
-        { name: "مياه", price: 10 },
-        { name: "بيبسي", price: 30 },
-        { name: "سفن", price: 30 },
-        { name: "شويبس", price: 35 },
-        { name: "فيروز", price: 35 },
-        { name: "بريل", price: 35 },
-        { name: "ريد بول", price: 95 },
-        { name: "مونستر", price: 95 },
-        { name: "فيوري", price: 40 },
-        { name: "استينج", price: 35 },
-      ],
-    },
-    {
-      id: "herbs",
-      name_ar: "أعشاب",
-      items: [
-        { name: "ينسون", price: 20 },
-        { name: "قرفة", price: 25 },
-        { name: "نعناع", price: 20 },
-        { name: "زنجبيل", price: 35 },
-        { name: "ليمون", price: 20 },
-        { name: "زنجبيل حليب", price: 35 },
-        { name: "قرفة حليب", price: 35 },
-        { name: "قرفة زنجبيل", price: 30 },
-        { name: "هوت سيدر", price: 40 },
-        { name: "كوكتيل اعشاب", price: 35 },
-        { name: "صيدلية", price: 40 },
-      ],
-    },
-    {
-      id: "warm",
-      name_ar: "الدفء",
-      items: [
-        { name: "سحلب", price: 35 },
-        { name: "سحلب مكسرات", price: 45 },
-        { name: "سحلب عسل مكسرات", price: 50 },
-        { name: "هوت شوكولاتة", price: 30 },
-        { name: "هوت شوكولاتة مارشميلو", price: 40 },
-        { name: "حمص", price: 35 },
-      ],
-    },
+
     {
       id: "dessert",
       name_ar: "الديزيرت والإضافات",
