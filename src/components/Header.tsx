@@ -5,10 +5,10 @@ export function Header({ nameAr }: { nameAr: string }) {
     <header className="text-center pt-14 pb-8 px-4">
       <div className="inline-flex items-center justify-center mb-5">
         <div
-          className="w-20 h-20 rounded-full flex items-center justify-center
-                     border-2 border-cafe-gold/30 bg-cafe-bg2/30 shadow-lg"
+          className="w-36 h-36 rounded-full flex items-center justify-center
+             border-2 border-cafe-gold/30 dark:bg-cafe-bg2/30 bg-[#a97a22] shadow-lg"
         >
-          <Coffee size={36} className="text-cafe-gold" strokeWidth={1.5} />
+          <img src="/villa.png" width={500} />
         </div>
       </div>
       <h1

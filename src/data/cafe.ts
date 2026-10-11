@@ -113,7 +113,7 @@ export const cafeData: CafeData = {
         {
           name: "نعنشتك",
           price: 65,
-          description: "جوافة + موز + ايس كريم + فانيليا + نعناع",
+          description: "جوافة + موز + آيس كريم + فانيليا + نعناع",
         },
         { name: "بوم فري", price: 75 },
         { name: "كركديه بيري", price: 55 },
@@ -124,7 +124,7 @@ export const cafeData: CafeData = {
         {
           name: "روفان الفيلا",
           price: 120,
-          description: "مانجو + خوخ + اناناس + مكسرات",
+          description: "مانجو + خوخ + أناناس + مكسرات",
         },
       ],
     },
