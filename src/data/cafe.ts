@@ -197,22 +197,27 @@ export const cafeData: CafeData = {
         {
           name: "كركديه بيري",
           price: 55,
+          description: " كركديه + بلوبيري + نعناع",
         },
         {
           name: "زبادي فواكه",
           price: 75,
+          description: "مانجو + فراوله + موز",
         },
         {
           name: "مانجو كيوي",
           price: 80,
+          description: "مانجو + كيوي ",
         },
         {
           name: "كانجو مانجو",
           price: 80,
+          description: "مانجو + خوخ ",
         },
         {
           name: "تروبيكانا",
           price: 95,
+          description: "خوخ + مانجو + اناناس + مكسرات",
         },
         {
           name: "روقان الفيلا",
