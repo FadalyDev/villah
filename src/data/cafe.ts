@@ -157,7 +157,7 @@ export const cafeData: CafeData = {
         {
           name: "فلوريدا",
           price: 65,
-          description: "فراولة + مانجو + جوافة",
+          description: "برتقال + مانجو + جوافة",
         },
         {
           name: "اركاديا",
