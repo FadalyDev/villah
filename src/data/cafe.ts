@@ -333,15 +333,6 @@ export const cafeData: CafeData = {
         { name: "مكسرات", price: 25 },
       ],
     },
-    {
-      id: "shisha",
-      name_ar: "شيشة",
-      items: [
-        { name: "معسل", price: 15 },
-        { name: "فواكه", price: 90 },
-        { name: "شيشة الفيلا", price: 130 },
-        { name: "فحم حراري", price: 20 },
-        { name: "لي طبي", price: 25 },
       ],
     },
   ],
