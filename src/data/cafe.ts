@@ -332,7 +332,6 @@ export const cafeData: CafeData = {
         { name: "عسل", price: 15 },
         { name: "مكسرات", price: 25 },
       ],
-      ],
     },
   ],
 };
