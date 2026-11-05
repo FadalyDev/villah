@@ -298,14 +298,14 @@ export const cafeData: CafeData = {
       id: "egypt",
       name_ar: "شغل ايجيبت",
       items: [
-        { name: "ايس لاتيه", price: 55 },
+        { name: "ايس لاتيه", price: 70 },
         { name: "ايس اسبانيش لاتيه", price: 85 },
         { name: "ايس ميكاتو كراميل", price: 60 },
         { name: "ايس موكا دارك", price: 75 },
         { name: "ايس موكا وايت", price: 75 },
         { name: "ايس امريكانو بلاك", price: 65 },
-        { name: "فرابتشينو كوفي", price: 60 },
-        { name: "فرابتشينو فليفر", price: 85 },
+        { name: "فرابيه شوكليت", price: 85 },
+        { name: "فرابيه فانيليا", price: 85 },
       ],
     },
     {
@@ -313,9 +313,8 @@ export const cafeData: CafeData = {
       name_ar: "حلاوة روح",
       items: [
         {
-          name: "ميلك شيك",
+          name: "ميلك شيك شوكليت",
           price: 60,
-          description: "شوكولاتة، فانيليا، فراولة، مانجو",
         },
         { name: "ميلك شيك اوريو", price: 75 },
         { name: "ميلك شيك تونكز", price: 75 },
