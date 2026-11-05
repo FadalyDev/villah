@@ -129,8 +129,7 @@ export const cafeData: CafeData = {
         { name: "قرفة حليب", price: 35 },
         { name: "قرفة زنجبيل", price: 30 },
         { name: "هوت سيدر", price: 40 },
-        { name: "كوكتيل اعشاب", price: 35 },
-        { name: "صيدلية", price: 40 },
+        { name: "كوكتيل اعشاب", price: 40 },
       ],
     },
     {
@@ -141,8 +140,7 @@ export const cafeData: CafeData = {
         { name: "سحلب مكسرات", price: 45 },
         { name: "سحلب عسل مكسرات", price: 50 },
         { name: "هوت شوكلت", price: 50 },
-        { name: "هوت شوكلت مارشميلو", price: 60 },
-        { name: "حمص", price: 35 },
+        { name: "حمص", price: 40 },
       ],
     },
     {
@@ -157,7 +155,7 @@ export const cafeData: CafeData = {
         {
           name: "فلوريدا",
           price: 65,
-          description: "برتقال + مانجو + جوافة",
+          description: "فراولة + مانجو + جوافة",
         },
         {
           name: "اركاديا",
@@ -175,34 +173,26 @@ export const cafeData: CafeData = {
           description: "أناناس + جوز هند + آيس كريم",
         },
         {
-          name: "روقانك",
+          name: "جوافة نعناع",
           price: 60,
-          description: "جوافة + نعناع",
         },
         {
-          name: "فوقانك",
+          name: "فراولة نعناع",
           price: 65,
-          description: "فراولة + نعناع",
         },
         {
-          name: "نعنشتك",
+          name: "بطيخ نعناع",
           price: 65,
-          description: "بطيخ + نعناع",
         },
         {
           name: "يوم فري",
-          price: 75,
+          price: 80,
           description: "جوافة + موز + آيس كريم + فانيليا + نعناع",
-        },
-        {
-          name: "كركديه بيري",
-          price: 55,
-          description: " كركديه + بلوبيري + نعناع",
         },
         {
           name: "زبادي فواكه",
           price: 75,
-          description: "مانجو + فراوله + موز",
+          description: "بيري + مانجو + فراوله + موز",
         },
         {
           name: "مانجو كيوي",
