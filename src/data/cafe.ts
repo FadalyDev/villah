@@ -348,5 +348,16 @@ export const cafeData: CafeData = {
         { name: "مكسرات", price: 25 },
       ],
     },
+    {
+      id: "shisha",
+      name_ar: "شيشة",
+      items: [
+        { name: "معسل", price: 15 },
+        { name: "فواكه", price: 100 },
+        { name: "شيشة ميكس", price: 150 },
+        { name: "شيشة الفيلا", price: 200 },
+        { name: "شيشة VIP", price: 250 },
+      ],
+    },
   ],
 };
