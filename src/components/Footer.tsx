@@ -9,7 +9,7 @@ export function Footer() {
         <span className="h-px w-10 bg-cafe-gold/30" />
       </div>
       <p className="text-cafe-soft text-xs">
-        ضريبة خدمة ١٠ ٪ - بالهنا والشفا ♥️
+         خدمة ١٠ ٪ - بالهنا والشفا ♥️
       </p>
     </footer>
   );
